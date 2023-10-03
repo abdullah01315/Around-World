@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://moneymakingonlinesite247.000webhostapp.com/two-cheetah-cubs/`
+					`https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835`
 				}`,
 			},
 		};
