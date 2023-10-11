@@ -25,7 +25,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		};
 		}
 
-	if (referringURL?.includes('t.co') || tclid) {
+	if (referringURL?.includes('twitter.com') || tclid) {
   return {
     redirect: {
       permanent: false,
