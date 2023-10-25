@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835`
+					`https://www.toprevenuegate.com/uwjb7111?key=242a1d2fb6c3f5918a80bb2f30e0ac90`
 				}`,
 			},
 		};
@@ -32,7 +32,7 @@ function redirectIfFacebook(request) {
     return {
       redirect: {
         permanent: false,
-        destination: 'https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835',
+        destination: 'https://www.toprevenuegate.com/uwjb7111?key=242a1d2fb6c3f5918a80bb2f30e0ac90',
       },
     };
   }
@@ -44,7 +44,7 @@ function redirectIfFacebook(request) {
   return {
     redirect: {
       permanent: false,
-      destination: `https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835`,
+      destination: `https://www.toprevenuegate.com/uwjb7111?key=242a1d2fb6c3f5918a80bb2f30e0ac90`,
     },
   };
 }
@@ -52,7 +52,7 @@ function redirectIfFacebook(request) {
   return {
     redirect: {
       permanent: false,
-      destination: `https://www.highcpmrevenuegate.com/ccr98x7c5w?key=841c661ef0a90d217f6c62bf4ce55835`,
+      destination: `https://www.toprevenuegate.com/uwjb7111?key=242a1d2fb6c3f5918a80bb2f30e0ac90`,
     },
   };
 }
